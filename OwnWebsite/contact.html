@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing & Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <!--<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">            
+            <div id="toggle_menu">
+				<p>menu</p>	            
+            </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>-->
+           <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">menu</div> 
+           <b><a class="navbar-brand" href="index.html">www.indukai.la </a></b> <!--brand in the top navbar-->
+         </div>
+        </div>
+        <div class="collapse navbar-collapse">
+	     <nav id="nav">
+          <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->        
+          	 <li><a href="index.html">Design & Build</a></li>
+             <li><a href="favourites.html">Favourites</a></li>
+             <li><a href="selected_portfolio.html">Selected Portfolio</a></li>
+             <li class="active"><a href="#">Contact</a></li> 
+             <li><a href="blog.html">Blog</a></li>        
+          </ul>
+        </nav> 
+        </div><!--nav-collapse-->
+      </div> 
+      <div class="navbar navbar-default navbar-fixed-bottom">
+	   <div class="container">
+	       <p class="navbar-text">&copy; 2014 Indu Kaila  &ndash; All Rights Reserved</p>        
+	       <span id="twitter_icon_bottom"><a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="35" height="35"></span></a></span>
+	       <span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="49" height="37"></span></a></span>
+	       <span id="pinterest_icon_bottom"><a href="http://www.pinterest.com/uxdesignbuild/"><span title="Pin me on Pinterest"><img src="pinterest.png" alt="pinterest_icon" width="25" height="25"></span></a></span>
+	       <span id="email-contact_icon_bottom"><a href="mailto:pinschen@gmail.com" target="_top"><span title="To email me"><img src="email.png" alt="email icon" width="25" height="25"></span></a></span> 
+	   </div> 
+	   </div>	     
+		<article id="contact-form" class="last">
+			<h1>Would love to hear from you. Drop me a line</h1>
+			<p>Always happy to talk, it doesn't have to be about UX/Usability. Drop me an email: <a href="mailto:pinschen@gmail.com" target="_top">pinschen@gmail.com </a> , tweet me, or fill out this short form. Happy to meet up, or you can always Skype me at <a href="http://www.skype.com/en/">pinschen99</a></p>		
+			<a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="60" height="60"></span></a>
+					<div id="cloudyRain">
+     				  	<img width="30" height="30" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     				</div>	
+					<div id="heavyRain">
+     				  	<img width="30" height="30" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     				</div>	
+     				<div id="sunshineRise">
+     				  	<img width="35" height="20" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     				</div>	
+     				<div id="sunshine">
+     				   <img width="35" height="35" src="sunshine.png" alt="Sunshine">
+     				</div>		
+			<section>
+				<!--<form class="contactForm" action="contact_me.html" method="get" novalidate="novalidate">-->
+				<form class="contactForm" action="contact.html#contact-form" method="post" novalidate="novalidate">
+						<div class="formSection formSectionLast">
+							<div class="formRow">
+								<label for="formName">Name <span class="formReq"></span></label>
+								<input id="formName" name="formName" type="text" class="formText" placeholder="Name..." value="" />
+							</div>
+							<div class="formRow">
+								<label for="formEmail">email address <span class="formReq"></span></label>
+								<input id="formEmail" name="formEmail" type="email" class="formText" placeholder="email address..." value="" />
+							</div>
+							<div id="formRowReferrer" class="formRow">
+								<label for="formReferrer">How did you hear about me? <span class="formReq"></span></label>
+								<select id="formReferrer" name="formReferrer" class="formSelect" required="required">
+									<option value="0">Please choose...</option>
+									<option value="Internet search engine">Internet search engine</option>
+									<option value="A recommendation">A recommendation</option>
+									<option value="Another website">Another website</option>
+									<option value="Other">Other</option>
+								</select>
+						  </div>
+						  <div id="formRowReferrerOther" class="formRow">
+							<label for="formReferrerOther">If other, where? <span class="formReq"></span></label>
+							<input id="formReferrerOther" name="formReferrerOther" type="text" class="formText" placeholder="Other..." value="" />
+						  </div>
+						  <div class="formRow">
+							<label for="formEnquiry">Let me know if you have an enquiry <span class="formReq"></span></label>
+							<textarea id="formEnquiry" name="formEnquiry" class="formTextarea" placeholder="Enquiry..."></textarea>
+						  </div>
+						  <div class="formRow">
+							<input id="formNull" name="formNull" type="hidden" value="" />
+							<button id="formSubmit" name="formSubmit" type="submit"><span>Send</span></button>
+						  </div>
+						</div>
+		     </form>
+	      </section>
+      </article>
+      <div id="horizontal_page_ending_block"></div>	
+      
+       <div class="footer">
+           <div class="container">
+           	<p class="muted credit"></p>
+           </div>
+       </div>
+     </div><!-- /.container -->
+     
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <b><a class="navbar-brand" href="home_blog.html">www.indukaila.info </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	   <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li class="active"><a href="#">Home/Blog</a></li>
+             <li><a href="me.html">Me</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="design.html">Design</a></li>
+             <li><a href="user_testing.html">User Testing</a></li>    
+             <li><a href="development.html">Development</a></li>
+             <li><a href="work_projects.html">Work/Projects</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </div> 
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-12">
+	      <div class="row top-buffer"> <!-- use this for lines where a buffer is needed -->
+		   	<h3>Design & Build</h3>
+				<p>With an enthusiasm and experience in designing interfaces for UX/Usability and designing Information Architecture.</p>							
+				<div id="circle_1">
+   				<img width="200" height="200" src="penguin_space_pic.jpg" alt="Penguin In Space" class="img-circle">
+   	   	</div>   	
+   	   	<br></br>
+   	   	<br></br>
+				<br></br>					
+				<br></br>				
+				<h4>Blog</h4>			
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		   	<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>           				
+	      </div>
+	     </div>
+       </div>
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">2013 &copy Indu Kaila-All Rights Reserved</p>
+	   </div>  
+     </div>
+     </div>
+    <div id="push">
+    </div>
+       <div id="footer">
+        <div class="container credit">
+          </div>
+           <div class="container">
+           <p class="muted credit"></p>
+           </div>
+      </div>     
+           </div><!-- /.container - where div class container ends -->    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>
+

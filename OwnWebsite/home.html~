@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+ 
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+       <!--   <b><a class="navbar-brand" href="#">Indu </a></b> brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	   <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li class="active"><a href="#">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="contact_me.html">Contact me</a></li>
+             <li><a href="design.html">Design</a></li>
+             <li><a href="development.html">Development</a></li>
+             <li><a href="user_testing.html">User Testing</a></li>           
+             <li><a href="work_projects.html">Work/Projects</a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </div> 
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+     <div class="container">  
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-10">
+	      <div class="row top-buffer"> <!-- use this for lines where a buffer is needed -->
+		    <h3>Design & Build</h3>
+		    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+		    <p> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>      
+	       <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p> 
+		    <p>'Lorem ipsum' is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy text ever since the 1500s. It has been popularised 'recently' with desktop publishing software and in the 1960s with the release of Letraset sheets containing 'lorem ipsum' passages.</p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using 'lorem ipsum' is that it has a more-or-less normal distribution of letters, as opposed to using 'This here is content' or 'Osama Bin Laden wanted dead or alive', making it look like readable text and there also has been many examples what has happened if someone has forgotten to change the dummy text for the final copywrite text.</p>      
+	      </div>
+	     </div>
+       </div>
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">2013 &copy Indu Kaila-All Rights Reserved</p>
+	   </div>  
+     </div>
+     </div>
+    <div id="push">
+    </div>
+       <div id="footer">
+        <div class="container credit">
+          </div>
+           <div class="container">
+           <p class="muted credit"></p>
+           </div>
+      </div>     
+           </div><!-- /.container - where div class container ends -->    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="js/bootstrap.js"></script>-->
+  </body>
+</html>
+

@@ -1,0 +1,823 @@
+/*headings*/
+h1 {
+	  font-family: 'Hind', sans-serif;
+	  margin-top: 40px;
+	  /*margin-top: 28px;*/
+     margin-bottom: 10px;
+	  color: #702963; /*Dark purple colour*/
+	  font-weight: bold; 
+}
+
+
+h2 {
+	  font-family: 'Hind', sans-serif;
+	  margin-top: 20px;
+     margin-bottom: 5px;
+	  color: #702963; /*Dark purple colour*/
+	  font-weight: bold; 
+}
+
+
+h3 {
+    font-family: 'Hind', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #702963; /*Dark purple colour*/
+    font-weight: bold; 
+    /*clear: both;  /*new*/
+}
+ 
+ 
+h4 {
+    font-family: 'Hind', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #702963; /*Dark purple colour*/
+    font-weight: bold; 
+    clear: both;  /*new*/
+}
+
+
+h5 {
+    font-family: 'Hind', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: #702963; /*Dark purple colour*/
+    font-weight: bold; 
+}
+
+
+/*layout for header on the more to come page*/
+.header_on_more_to_come_page {
+	 font-family: 'Hind', sans-serif;
+	 font-size: 15px;
+  	 background-color:  #A2A9AF; /*blue grey chateau*//*#C1CDCD; /*Azure 3 colour*/
+  	 border-radius: 20px;
+  	 padding: 8px 15px 8px 15px;
+    margin-top: 40px;  
+    margin-bottom: 30px;
+    margin-left: -5px;
+    margin-right: 600px;
+}
+
+
+
+/*body*/  
+body {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #4B3621; /*Cafe noir (black coffee) colour*/ 
+    background-color:  #FFFFFF; /*#E3DAC9; /*bone*//*#F5F5DC; /*#FFFFFF;*/
+  /*background-image:url('brickinvert4.png');*/
+    margin: 0% 25%;
+    margin-bottom: 180px;
+    padding-top: 100px;
+}  
+
+
+
+/*two lists of skills/experience*/
+.skills_experience_column {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 13px;
+    /*font-style: normal;*/
+    font-variant: normal;
+    color: #4B3621; /*Cafe noir colour*/
+    font-weight: bolder;
+    background-color: #A2A9AF; /*blue grey chateau*/ /*#C1CDCD; /*Azure 3 colour*/
+    border-radius: 20px;
+    padding: 8px 15px 8px 15px;
+    margin-top: 10px;  
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+
+
+
+/*layout for the two lists of skills/experience columns*/
+.skills_experience_list_location {
+	 float: left;
+	 margin-bottom: 80px;
+}
+
+
+
+
+/*uxdesign I heart on home page*/
+.ux_design_i_heart {
+	 margin-top: 5px;
+    margin-bottom: 1px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+
+/*uxdesign I heart left and right columns on home page*/
+.ux_design_i_heart_list_left_column {
+    float: left;
+    width: 40%;
+    margin:0 10px 0 0;
+}
+
+
+.ux_design_i_heart_list_right_column {
+    margin-left: 60%; 
+}
+
+
+
+
+/*bookmarks*/
+.bookmarks {
+	 margin-top: 1px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    margin-left: 0;
+}
+	
+	
+
+
+/*bookmark list left and right columns on home page*/
+.bookmark_list_left_column {
+	 margin-top: 30px;
+    float: left;
+    width: 40%;
+    margin:0 40px 0 0;
+}
+
+
+
+.bookmark_list_right_column {
+    margin-left: 60%;
+}
+
+
+
+
+/*experience skills header on home page*/
+.experience_skills_header {
+	 margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+
+
+/*experience drawing on home page*/
+.experience_skills_drawing {
+	 margin-top: 1px;
+	 margin-bottom: 180px;
+	 padding-top: 5px;
+}
+
+
+
+
+/*UX Bookshelf*/
+.ux_bookshelf {
+	 margin-top: 40px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+
+
+/*UX Bookshelf - removing the bullet point for the book description*/
+.book_description {
+   margin-bottom: 20px;
+}
+
+
+
+
+/*horizontal purple block at the end of the Contact page*/
+#horizontal_page_ending_block {
+    width: 100%; /*700px;*/
+    height: 25px;
+    background-color: #381431; /*Dark purple colour*/
+    margin-top: 20%;
+}
+
+
+
+/*circular photos*/
+.circle_for_indu_photo {
+    margin-top: 20px;
+    margin-bottom: 20px;	
+}
+
+
+.circle_for_design {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /*clear: both;  /*new*/*/
+}
+
+
+.circle_for_user_testing {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    clear: both;  /*new*/
+}
+
+
+.circle_for_development {
+    margin-top: 170px;
+    margin-bottom: 20px;
+    clear: both;  /*new*/
+}
+ 
+ 
+.img-circle {
+    border: solid 2px #323232; /*shade of black colour*/
+}
+ 
+ 
+
+/*square drawing*/
+#square_1 {
+    margin-top: 10px;
+    position: relative;
+    top: 10%;
+    left: 25%;
+}
+
+
+
+@media screen and (max-width: 698px) {
+#square_1 {
+	 display: none;
+	}
+}
+
+
+/*note pad photo*/
+.notepad_photo {
+	 border: solid 5px #5E5E5E; 
+	 border-radius: 20px;	
+	 margin-top: 10px;
+	 margin-bottom: 20px;
+	 margin-left: 190px;
+	 position: center;
+}
+
+
+
+/*location of the 'me' illustration*/
+#illustration_me_location {
+	 margin-left: 150px;
+}
+
+
+#illustration_me_favourites_location {
+ 	margin-left: 120px;
+ 	margin-bottom: 70px;
+}
+
+
+
+/*several chunks of code, navigation bar related:-*/
+.nav {
+	margin-bottom: 5px;
+}
+
+
+
+#nav ul li.active a,
+#nav ul li a:hover {
+    color: #4E0041; /*Purple colour of font when highlighted*/
+    /*line-height: 17px;/*keep the line-height the same in the hovered and non-hovered states to prevent the menu fidgeting at mouse hover*/*/
+}
+
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: #FFFFFF; /*White colour of pillboxes*/
+    font-weight: normal; 
+    /*line-height: 17px;/*removed this to keep the line-height the same in the hovered and non-hovered states to prevent the menu fidgeting at mouse hover*/*/
+}
+
+
+.navbar-default .navbar-link:hover {
+    color: #FFFFFF;	/*White colour of pillboxes when you hover*/
+}
+
+
+.nav > li > a {
+    position: relative;
+    display: block;
+    color: #CA82AF; /*Colour of font on navbar*/ 
+    font-size: 18px;    
+}
+
+
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+    color: #98817B; /*Cinereous colour*/
+    text-decoration: none;
+    background-color: transparent;
+    cursor: not-allowed;
+}
+
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    color:  #FFFFFF; 
+  /*height of stationary pillbox when page clicked*/
+    background-color:  #FFFFFF; /*White colour of pillboxes when the page is permanently clicked*/
+}
+
+
+.navbar-default {
+ 	 font-family: 'ABeeZee', sans-serif;
+    color: #FFFFFF; /*Changed to the #FFFFFF so as to not have a dark brown line under the navbar*/
+    background-color: #FFFFFF; /*White colour*/
+    border-color: /*#e7e7e7;*/
+    margin-left: /*11%;*/
+    margin-right: /*11%;*/
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    border-color:  #FFFFFF; /*White colour*/
+    border-bottom: 0px solid;
+}
+
+
+
+.navbar-brand {
+    float: left;
+    /*padding: 15px 15px;*/
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8B1A1A; /*Saddlebrown colour*/
+}
+
+
+.navbar-default .navbar-brand {
+    color:  #CA82AF; /*Variation of pink colour*/
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	 font-family: 'ABeeZee', sans-serif;
+    color: #FFFFFF; /*White colour*/
+    background-color: transparent;
+}
+
+
+.navbar-fixed-bottom {
+    background-color: #381431; /*Purple colour*/
+    /*#2a0f25;*/
+    /*#43183b;*/
+    /*#4e1c45;*/
+    /*background-image:url('brickinvert4.png');*/   
+}
+
+
+.navbar-fixed-top {
+    background-color: #381431; /*Purple colour*/
+    /*#43183b;*/
+    /*#2a0f25;*/
+    /*#43183b;*/
+    /*#4e1c45;*/
+    font color: #FFFFFF; /*White colour*/
+    /*font-weight: normal;*/
+    /*background-image:url('brickinvert4.png');*/
+    text-align: center;
+    /*margin-bottom: 5px;*/
+}
+
+
+.navbar-text {
+	 font-family: 'ABeeZee', sans-serif;
+    font-size: 14px;	 
+    font-weight: bold;
+    /*margin-right: 740px;*/
+}
+
+
+
+#email-contact_icon_bottom {
+	 position: relative;
+	 float: right; /*left;*/
+	 padding-top: 1px;
+}
+
+
+
+#pinterest_icon_bottom {
+	 position: relative;
+	 float: right; /*left;*/
+	 padding-top: 1px;
+	 padding-left: 4px;
+}
+
+
+
+#github_icon_bottom {
+	 position: relative;
+	 float: right; /*left;*/
+	 padding-top: 1px;
+}
+
+
+
+#twitter_icon_bottom {
+	 position: relative;
+	 float: right; /*left;*/
+	 padding-top: 1px;
+}
+
+
+
+#toggle_menu {
+	color: #FFFFFF; /*White colour*/
+}
+
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: grey; /*Grey colour*/
+}
+
+
+
+/*to hide the horizontal scrollbar*/
+/*html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}*/
+
+
+
+/*forms*/
+.formRow label {
+	 color:  #926F5B;
+	 font-family: 'ABeeZee', sans-serif;
+    /*font-family: Arial, Verdana, sans-serif;*/
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
+
+
+.formRow:hover label {
+	 color: #A85387; /*Dahlia mauve colour*/
+}
+
+
+.formReq {
+	 color:  #0AA0E9; /*Blue colour*/
+	 font-family: 'ABeeZee', sans-serif;
+	 /*font-family: Arial, Verdana, sans-serif;*/ 
+	 font-size: 0.923em;
+	 line-height: 1em;
+	 margin-top: 150px; 
+	 padding-left: 20px;
+}
+
+
+.formRow {
+	 padding-top: 10px;
+}
+
+
+
+/*button on the contact form*/ 
+button {  
+	 color: #4B3621; /*Cafe noir colour*/
+	 font-family: 'ABeeZee', sans-serif;
+    /*font-family: Arial, Tahoma, Verdana, sans-serif;*/ 
+    font-size: 1em; 
+    font-weight: normal;
+    margin-left: 1%; 
+    margin-bottom: 100px;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+
+button:hover {
+     background-color:#CA82AF; /*Purple colour*/
+} 
+
+
+
+/*portfolio folder*/ 
+#folder {
+	  padding-left: 30%; /*230px;*/
+	  padding-top: 1%; /*40px;*/
+	  white-space: pre-line;
+}
+
+
+.folders {
+     list-style: none;	
+     margin-top: 40px;
+     margin-bottom: 40px;   
+     padding-bottom: 20px;
+     margin-left:-40px;
+     /*margin: 0 15px 0 0;*/
+}
+
+
+#folders li {
+	  padding: 30px 50px 5px 0px;
+}
+
+
+
+
+/*icons*/
+#cloudyRain {
+	  position: fixed;
+	  top: 130px;
+	  left: 30px;
+}
+
+
+#heavyRain {
+	  position: fixed;
+	  top: 160px;
+	  left: 90px;
+}
+
+	 
+#sunshineRise {
+	  position: fixed;
+	  top: 210px;
+	  left: 45px;
+}
+
+
+#sunshine {
+	  position: fixed;
+	  top: 265px;
+	  left: 20px;
+}
+
+
+#back_arrow {
+	  font-family: 'ABeeZee', sans-serif;
+	  font-size: 15px;	 
+	  position: fixed;
+     bottom: 80px;
+	  left: 50px; 
+}
+
+
+
+/*image border on portfolio squares*/
+.imgborder {
+     border: 5px solid #808080;	/*Dark grey colour*/
+}
+
+
+
+/*image border on portfolio squares to change colour when hovering over the squares*/
+.imgborder:hover {
+     border-color: #702963; /*Purple colour*/
+}
+
+
+
+/*Text info on the portfolio squares when the user hovers over the squares*/
+.info {
+     background-color: Black;
+     filter: alpha(opacity=70);
+     opacity: 0.7;
+     position: absolute;
+     display: block;
+     color: White;
+     font-family: 'ABeeZee', sans-serif;
+     text-align: center;
+     font-size: 12pt;
+     padding-bottom: 3px;
+     padding-top: 1px;
+     outline-width: 5px solid black;
+     margin-left: 5px;
+     margin-right: 5px;
+}
+
+
+
+/*ios7 OfferApp screen designs png image*/
+#ios7_offerapp_screen_designs {
+	  padding-right: 0px;
+	  padding-top: 5px;
+	  padding-bottom: 30px;
+	  margin-bottom: 60px;
+}
+
+
+
+/*to make sure there is a margin below the ios7 OfferApp screen designs image*/
+#ios7_offerapp_design {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+
+
+/*Bristol Wireless screen design png images*/
+#bristol_wireless_screen_designs {
+	  padding-right: 0px;
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+}
+
+
+
+/*clickable portfolio square images on the selected portfolio page*/
+#portfolio_squares ul li {
+     list-style-type: none;
+     padding-left: 2px;
+     padding-right: 2px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     float: left;
+}	
+
+
+
+/*location of clickable images on the selected portfolio page*/
+.portfolio_location {
+	  margin-top: 0.5px;
+     margin-bottom: 180px;  
+     margin-left: -10px;
+}
+
+
+
+
+/*outcomes from work done on each of the pages showing the portfolio pieces*/
+.work_outcomes {
+     font-family: 'ABeeZee', sans-serif;
+     font-size: 14px;
+     /*font-style: normal;*/
+     font-variant: normal;
+     color: #4B3621; /*Cafe noir colour*/
+     font-weight: bold;
+     background-color:  #A2A9AF; /*blue grey chateau*//*#C1CDCD; /*Azure 3 colour*/
+     border-radius: 20px;
+     padding: 8px 15px 8px 15px;
+     margin-top: 10px;  
+     margin-bottom: 1px;
+     margin-left: -5px;
+     margin-right: 10px;
+}
+
+
+
+/*the text tooltip ie text appearing when the user hovers over the specified image - used on the Twitter bird image on the contact page and the back arrow image on each of the pages showing the portfolio pieces*/
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+
+
+.tooltip:hover:before {
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+
+
+.tooltip:hover:after {
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+
+
+
+/*to make sure the height of the footer is the same as the margin-bottom of the body so that pages are able to scroll down fully*/
+.footer {
+  height: 70px;
+}
+
+
+
+/*responsive layout for all the images - catering for differing screen widths/devices, including mobile and tablet*/
+img {max-width:100%}
+
+
+
+/*responsive layout - catering for differing screen widths/devices, including mobile and tablet*/
+@media screen and (max-width: 600px) {
+#cloudyRain, #heavyRain, #sunshineRise, #sunshine, #back_arrow, #note_pad {
+	  display: none; /*icons to disappear at this width of device to aid a clear responsive layout*/	
+}
+body {
+	  margin: 12px; /*margin setting to aid a responsive layout*/
+}	
+.formText, .formTextarea, .formSelect {
+	  width: 100%;		/*aid a responsive layout*/
+}	
+/*ios7 OfferApp screen image close-up to disappear at this width of device to aid a clear responsive layout*/
+#ios7_offerapp_closeup {
+	display: none;
+}
+/*horizontal purple block to disappear at this width of device to aid a clear responsive layout*/
+#horizontal_page_ending_block {
+	display: none;
+}
+/*the menu to display on a separate line at this width of device to aid a clear responsive layout*/
+.nav-pills>li {
+	clear: both;
+}
+/*the list to display on a separate line at this width of device to aid a clear responsive layout*/
+.ux_bookshelf {
+	clear: both;
+}
+/*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
+#pinterest_icon_bottom {
+ clear: both;
+ margin-bottom: 2px;
+}
+/*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
+#email-contact_icon_bottom {
+ margin-bottom: 10px;
+}
+}
+
+
+/*responsive layout - catering for differing screen widths/devices, including mobile*/
+/*amend the gap above the page h1 headings to be responsive*/ 
+@media screen and (max-width: 755px) {
+h1 {
+	margin-top: 20px;
+}
+}
+
+
+/*responsive layout - catering for differing screen widths/devices, including mobile and tablet - 
+text to move below the circular images*/
+@media screen and (max-width: 400px) {	
+.circle_for_indu_photo, .circle_for_design, .circle_for_user_testing, .circle_for_development {
+	 margin-top: 10px;
+    margin-bottom: 10px;
+	 content: "";
+    width: 12em;
+    display: block;
+    overflow: hidden;
+  /*for Demonstration to see check the text moves to below the circular images:*/
+  /*border: 1px solid green;*/
+}
+}
+
+
+/*responsive layout - catering for differing screen widths/devices, including mobile and tablet*/
+@media screen and (max-width: 400px) {	
+#illustration_me_favourites_location {
+ 	margin-left: 50px;
+ 	margin-bottom: 70px;
+}
+}
+
+
+/*responsive layout - catering for differing screen widths/devices, including mobile*/
+@media screen and (max-width: 400px) {
+.footer {
+	 margin-top: 90px;
+}
+}
+
+/*.navbar-fixed-bottom {
+position: static;
+}*/
+
+

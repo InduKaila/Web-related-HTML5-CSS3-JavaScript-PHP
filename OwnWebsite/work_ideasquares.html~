@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing & Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <!--<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">            
+            <div id="toggle_menu">
+				<p>menu</p>	            
+            </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>-->
+           <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">menu</div> 
+           <b><a class="navbar-brand" href="index.html">www.indukai.la </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	     <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+         	 <li><a href="index.html">Design & Build</a></li>
+             <li><a href="favourites.html">Favourites</a></li>
+             <li class="active"><a href="#">Selected Portfolio</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="blog.html">Blog</a></li>    
+           </ul>
+        </nav>
+        </div><!--nav-collapse-->
+       </div>
+     </div>
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->       
+      <div id="wrap">   
+	    <div class="row">	      
+	     <div class="col-md-13">   
+	      <div class="row top-buffer"> 		   	   
+					<div id="cloudyRain">
+     				  	<img width="30" height="30" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     				</div>	
+					<div id="heavyRain">
+     				  	<img width="30" height="30" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     				</div>	
+     				<div id="sunshineRise">
+     				  	<img width="35" height="20" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     				</div>	
+     				<div id="sunshine">
+     				  	<img width="35" height="35" src="sunshine.png" alt="Sunshine">
+     				</div>				
+     				<h3>Redesign - IdeaSquares website</h3> 
+					<h4>The Brief</h4>
+						<p>Redesign of a website aimed at creatives where they can promote their ideas/services/product(s) for people to find.</p> 	
+     				<h4>Outcome</h4>										
+     				<p class="work_outcomes">Redesign of the website design and Information Architecture (IA) following relevant ISO guidelines, UX best practice, including Nielsen's usability heuristics, interviewing people for usability/views/ideas as research, and A/B testing of designs:</p>
+					<p class="work_outcomes">Removal of duplication in the subject areas to form the menu</p> 
+					<p class="work_outcomes">Removed the original small drop-down menu that had a huge number of subject categories, replacing it with a larger style surface area for the main menu to aid usability and ensuring the main menu has less subject areas, avoiding subject duplication. Used card sorting for user validation</p>
+					<p class="work_outcomes">Giving user feedback via the addition of the hover facility for the top menu bar</p> 
+					<p class="work_outcomes">Ensuring consistency via replacing several colours with a single gold colour for the IdeaSquares</p>
+					<p class="work_outcomes">Added the square design feature to the main top menu in a colour different to those of the IdeaSquares on the page</p>					
+     				<p class="work_outcomes">Changed the Information Architecture, removing the icon squares 'Recently viewed', 'Most Popular', 'Latest Squares'</p>
+					<p class="work_outcomes">Added a gold top to each Ideasquare to give balance</p>
+					<p class="work_outcomes">Hovering over any IdeaSquares/main menu to give user feedback (a box colour change from gold to one other colour e.g. purple)</p>	
+     				<p class="work_outcomes">Placed all 3 social media icons together with 'blog' with a link facility in a square directly under the top left home square</p>
+     				<p class="work_outcomes">Placed the 'login' above the 'email/register/forget password' so that these together formed a square in keeping with the square theme</p>
+     				<h4>The Challenge</h4>
+					<ul>
+						<li>To redesign the website design for usability alongside preconceptions</li>
+						<li>To accommodate quickly in the website design, the constantly changing form of this new start-up</li>
+						<li>A Responsive design, to take account of mobile and tablet usage</li>
+					</ul>			
+     				<h4>Outline of my work</h4>				
+					<b>I designed a new Information Architecture (IA) to:</b>
+					<ul>
+						<li>Remove duplication of subject areas and to ease finding the relevant areas</li>
+						<li>Highlight the company vision/ethos</li>
+						<li>Divided the Information Architecture (IA) into three areas, further to research: seeking creatives, seeking investment, seeking resources</li>
+					</ul>						
+						<img src="mainpage_ideasquares.png" alt="main page" width="450" height="600"></a><b> Refinement - main page </b>
+						<p></p>						
+						<img src="original_ideasquares.png" alt="original main page" width="450" height="600"></a><b> Client's original </b>
+						<p></p>		
+						<img src="seeking_creatives_menu_ideasquares.png" alt="seeking creatives menu" width="450" height="600"></a><b> Refinement - seeking creatives menu</b>
+						<p></p>	
+						<img src="seeking_investment_menu_ideasquares.png" alt="seeking investment menu" width="450" height="600"></a><b> Refinement - seeking investment menu</b>
+						<p></p>	
+						<img src="seeking_resources_menu_ideasquares.png" alt="seeking resources menu" width="450" height="600"></a><b> Refinement - seeking resources menu</b>
+						<p></p>					
+					<b>Website design included:</b>	
+					<ul>						
+						<li>Research involved heuristic evaluation as to how the original website could be refined making it more usable</li> 
+						<li>Website page 'mockups' for the functional specifications</li> 
+     					<!--<p><b>Summary review of competitor websites: </b><a href="Summary_Reviewing_Other_Websites.pdf">Summary review.</a></p>-->
+					</ul>
+		   </div>								
+   	      	<div id="back_arrow">
+   	   			<a href="selected_portfolio.html"><span title="Back to the portfolio listing"><img src="back_arrow.png" alt="back_arrow" width="30" height="30"></span></a><em><b> Portfolio </em></b>
+	 				</div>
+   	   </div> 	   
+	     </div>
+       </div>    
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">&copy; 2014 Indu Kaila &ndash; All Rights Reserved</p>
+	   	<span id="twitter_icon_bottom"><a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="35" height="35"></span></a></span>
+	      <span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="46" height="37"></span></a></span>
+	      <span id="pinterest_icon_bottom"><a href="http://www.pinterest.com/uxdesignbuild/"><span title="Pin me on Pinterest"><img src="pinterest.png" alt="pinterest_icon" width="25" height="25"></span></a></span>
+	      <span id="email-contact_icon_bottom"><a href="mailto:pinschen@gmail.com" target="_top"><span title="To email me"><img src="email.png" alt="email icon" width="25" height="25"></span></a></span>	  	  
+	   </div>  
+     </div>
+     </div>
+     <div id="push">
+     </div>
+     
+        <div class="footer">
+           <div class="container">
+           	<p class="muted credit"></p>
+           </div>
+        </div> 
+     </div><!-- /.container - where div class container ends -->  
+     
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

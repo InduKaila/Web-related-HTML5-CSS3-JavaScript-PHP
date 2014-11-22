@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+   <!-- <link rel="shortcut icon" href="../../assets/ico/favicon.png" />--> 
+   <!--<link href="bootstrap.css" rel="stylesheet" />  have customised bootstrap3 removing that not needed -->
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <b><a class="navbar-brand" href="home_blog.html">www.indukaila.info </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+   	   </div> 
+   	   </div> 
+        <div class="collapse navbar-collapse"
+	   <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li><a href="home_blog.html">Home/Blog</a></li>
+             <li class="active"><a href="#">Me</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="design.html">Design</a></li>
+             <li><a href="user_testing.html">User Testing</a></li>
+             <li><a href="development.html">Development</a></li>
+             <li><a href="work_projects.html">Work/Projects</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div> 
+    <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+     <div class="container">  
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-12">
+	      <div class="row top-buffer"> <!-- use this for lines where a buffer is needed -->	
+	
+						<!--	<div class="page-header"> Decided not to include a heading line below the main h3 heading -->
+									<h3>About me</h3>
+						<!--		</div>	-->					   
+									
+								<!--	<img class="featuredImg" src="img/IMG_1037.JPG" width="100%">	-->					   
+<p>I'm a UX Designer at WebStart Bristol based at the Engine Shed Incubator. I do freelance projects and currently I'm designing and building websites for a range of businesses that include a catering, a natural beauty products, and a registered 'not for profit' company providing computer networking services and training. I enjoy being highly creative, keeping up-to-date with designing. I'm a member and regularly attend talks/meet-ups of local 'tech' groups. Love everything creative and when I'm not in front of a computer, I can be found beavering away at my allotment.</p> 
+<p>My experience in designing for user experience/usability includes:</p> 
+				<div class="left_list_experience_two_columns">
+					<ul>
+    					<li>Wireframing</li>
+	      			<li>Designing the Information Architecture</li> 
+	      			<li>Expert Heuristic & User-based Evaluations</li>
+	      			<li>Co-Design</li>
+	      			<li>Persona development</li>
+    				</ul>
+				</div>
+				<div class="right_list_experience_two_columns">
+    				<ul>
+       				<li>Task Analysis</li> 
+	      			<li>Usability Testing/Research and Analysis</li>
+	      			<li>Fieldwork Observations</li> 
+	      			<li>Interviewing</li>
+	      			<li>Remote User Testing</li> 
+    				</ul>
+				</div>	
+<p>I co-run a local UX/Usability group, organising the monthly free to attend talks from local companies/individuals on a wide-range of UX design/Usability topics with the aim of a community that regularly shares experience and knowledge.</p>
+
+<p>Use Java, Python programming languages; My SQL; Server side: LAMP; Web development: Ruby on Rails, JavaScript, JQuery, HTML5, CSS3, Drupal 7, although I'm adaptable to all problem-solving.</p>
+
+<p>Co-ordinated/organised the Bristol ITMegaMeet 2013 (June 2013) for which over 300 people registered, and an organiser for this annual event. http://bristol.itmegameet.co.uk</p>
+
+<p>Completed an MSc (merit) Software Development (IT) degree at UWE, including a UWE internship completing research in Persuasive Design, as well as designing for usability/usability testing for older adults working as a UWE intern on the MOBISERV research project at the BRL (Bristol Robotics Laboratory). http://www.brl.ac.uk/researchprojects/mobiservproject.aspx</p>
+						     <!--</div>-->					
+   					</div>
+   				</div>
+   			</div>
+			</div>
+			<div id="bottom_block"></div>	
+      <div class="navbar navbar-default navbar-fixed-bottom">
+	   <div class="container">
+	       <p class="navbar-text">2013 &copy Indu Kaila-All Rights Reserved</p>
+   </div>  
+     </div>
+     </div>
+    <div id="push">
+    </div>
+       <div id="footer">
+        <div class="container credit">
+          </div>
+           <div class="container">
+           <p class="muted credit"></p>
+           </div>
+      </div>    
+    </div><!-- /.container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </body>
+</html>
+

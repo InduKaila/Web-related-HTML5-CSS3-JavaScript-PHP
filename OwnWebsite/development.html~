@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing and Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <b><a class="navbar-brand" href="index.html">www.indukaila.info </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	   <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li><a href="me.html">Me</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="design.html">Design</a></li>
+             <li><a href="user_testing.html">User Testing</a></li>    
+             <li class="active"><a href="#">Development</a></li>
+             <li><a href="selected_portfolio.html">Selected Portfolio</a></li>
+             <li><a href="portfolio_contents.html"></a></li>
+             <li><a href="content1.html"></a></li>
+             <li><a href="content2.html"></a></li>
+             <li><a href="content3.html"></a></li>
+             <li><a href="content4.html"></a></li>
+             <li><a href="content5.html"></a></li>
+             <li><a href="content6.html"></a></li>
+             <li><a href="content7.html"></a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </div>
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-13">
+	      <div class="row top-buffer"> 	
+		   	<h3>Development</h3>		
+					<p>I take the design and usability research/testing findings to develop websites/mobile/apps covering accessibility and responsive build and innovation. Have used Java, Python programming languages; My SQL; JSON; Server side: LAMP; Web development: Ruby on Rails, JavaScript, JQuery, HTML5, CSS3, Drupal 7, and the use depends on what is fit for the purpose. I adapt to problem-solving.</p>			
+					<div id="cloudyRain">
+     				  		<img width="50" height="50" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     				</div>	
+					<div id="heavyRain">
+     				  		<img width="50" height="50" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     				</div>	
+     				<div id="sunshineRise">
+     				  		<img width="55" height="35" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     				</div>	
+     				<div id="sunshine">
+     				  		<img width="50" height="50" src="sunshine.png" alt="Sunshine">
+     				</div>		
+					<div id="circle_1">	
+   						<img width="250" height="250" src="bbc_micro_assembly_listing_large.png" alt="BBC Micro assembly listing" class="img-circle">
+   	   		</div> 
+   	   </div>
+	     </div>
+       </div>
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">2014 &copy Indu Kaila-All Rights Reserved</p>
+	   </div>  
+     </div>
+     </div>
+    <div id="push">
+    </div>
+       <div id="footer">
+        <div class="container credit">
+          </div>
+           <div class="container">
+           <p class="muted credit"></p>
+           </div>
+      </div>     
+           </div><!-- /.container - where div class container ends -->    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>
+

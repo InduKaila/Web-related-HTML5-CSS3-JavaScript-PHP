@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing and Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <b><a class="navbar-brand" href="me.html">www.indukaila.info </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+   	   </div> 
+   	   </div> 
+        <div class="collapse navbar-collapse"
+	   <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li class="active"><a href="#">Me</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="design.html">Design</a></li>
+             <li><a href="user_testing.html">User Testing</a></li>
+             <li><a href="development.html">Development</a></li>
+             <li><a href="selected_portfolio.html">Selected Portfolio</a></li>
+             <li><a href="portfolio_contents.html"></a></li>
+             <li><a href="content1.html"></a></li>
+             <li><a href="content2.html"></a></li>
+             <li><a href="content3.html"></a></li>
+             <li><a href="content4.html"></a></li>
+             <li><a href="content5.html"></a></li>
+             <li><a href="content6.html"></a></li>
+             <li><a href="content7.html"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div> 
+    <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+     <div class="container">  
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-13">
+	      	<div class="row top-buffer"> <!-- use this for lines where a buffer is needed -->	
+		   		<h3>Design & Build</h3>	
+		   			<p></p>	
+		   			<div>
+						<p>I'm a UX Designer based in Bristol and I do freelance projects. With an enthusiasm and experience in designing interfaces for UX/Usability and designing Information Architecture, I'm currently designing and building websites for a range of businesses that includes a catering, a natural beauty products, and a registered 'not for profit' company who provide computer networking services and training.</p>
+						<p>I enjoy being highly creative and keeping up-to-date with design/usability testing. Completed an MSc (merit) Software Development (IT) degree at UWE, including a UWE internship completing research in Persuasive Design, as well as designing for usability/usability testing working as a UWE intern on the MOBISERV research project at the BRL (Bristol Robotics Laboratory). http://www.brl.ac.uk/researchprojects/mobiservproject.aspx  My experience in designing for user experience/usability includes:</p> 		
+						<div class="left_list_experience_two_columns">
+							<ul>
+								<li>Co-Design</li>
+	      					<li>Persona/Proto-Persona Development</li>
+    							<li>Wireframing</li>
+	      					<li>Designing the Information Architecture</li> 
+	      					<li>Expert Heuristic & User-based Evaluations</li>
+	      					<li>A/B Testing</li> 
+	      					<li>Usability Research/Testing and Analysis</li>
+	      					<p>(primary and secondary sources)
+    						</ul>
+					  	</div>
+					   <div class="right_list_experience_two_columns">
+    						<ul>
+	      					<li>Task Analysis</li> 
+	      					<li>Fieldwork Observations</li> 
+	      					<li>Interviewing</li>
+	      					<li>Remote User Testing</li> 
+	      					<li>Devising Requirements and detailed Specifications</li> 
+	      					<li>Prototyping</li> 
+    						</ul>
+     					</div>			
+     				   </div>
+     				   <div id="cloudyRain">
+     				  		<img width="60" height="60" src="cloudy_rain_white.png" alt="Cloud and rain">
+     				  	</div>	
+					 	<div id="heavyRain">
+     				  		<img width="60" height="60" src="heavy_rain.png" alt="Cloud and heavy rain">
+     				  	</div>	
+     				  	<div id="sunshineRise">
+     				  		<img width="65" height="40" src="sunshine_rise.png" alt="Sunshine rise">
+     				  	</div>	
+     				  	<div id="sunshine">
+     				  		<img width="60" height="60" src="sunshine.png" alt="Sunshine">
+     				  	</div>		
+     				  	<br></br>	 	
+					 	<div id="circle_1">
+   						<img width="250" height="250" src="post-its_large.png" alt="Iterating with post-its" class="img-circle">
+						</div>  
+   		   	</div>
+   		   </div>
+		  </div>
+      <div class="navbar navbar-default navbar-fixed-bottom">
+	   	<div class="container">
+	     		<p class="navbar-text">2014 &copy Indu Kaila-All Rights Reserved</p>
+      	</div>  
+      </div> 
+     </div>
+    <div id="push">
+    </div>
+       <div id="footer">
+        <div class="container credit">
+          </div>
+           <div class="container">
+           <p class="muted credit"></p>
+           </div>
+      </div>   
+    </div><!-- /.container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing and Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+           <b><a class="navbar-brand" href="index.html">www.indukaila.info </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	   <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li><a href="me.html">Me</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li class="active"><a href="#">Design</a></li>
+             <li><a href="user_testing.html">User Testing</a></li>    
+             <li><a href="development.html">Development</a></li>
+             <li><a href="selected_portfolio.html">Selected Portfolio</a></li>
+             <li><a href="portfolio_contents.html"></a></li>
+             <li><a href="content1.html"></a></li>
+             <li><a href="content2.html"></a></li>
+             <li><a href="content3.html"></a></li>
+             <li><a href="content4.html"></a></li>
+             <li><a href="content5.html"></a></li>
+             <li><a href="content6.html"></a></li>
+             <li><a href="content7.html"></a></li>
+           </ul>
+         </div><!--/.nav-collapse -->
+       </div>
+     </div>
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-13">
+	      <div class="row top-buffer"> 	
+		   	<h3>Design</h3>		
+				<p>I provide design that is both engaging and usable. From research on your current/prospective users, I produce website/app designs of the information architecture, with content and functionality as wireframes/prototypes to observe usability and improvements with user testing. These are refined until I know the product meets both your system and your current/prospective users requirements. I'm adaptable to using a wide range of illustrator and image editor packages. Have used the Adobe Illustrator suite and currently I use Axure RP Pro 7, GIMP 2.6 and Inkscape on a day to day basis.</p>
+			</div>	
+			<div id="cloudyRain">
+     				 <img width="60" height="60" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     		</div>	
+			<div id="heavyRain">
+     				 <img width="60" height="60" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     		</div>	
+     		<div id="sunshineRise">
+     				 <img width="65" height="40" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     		</div>	
+     		<div id="sunshine">
+     				 <img width="60" height="60" src="sunshine.png" alt="Sunshine">
+     		</div>		
+			<div id="circle_1">	
+   				 <img width="250" height="250" src="iteration_egs.jpg" alt="Iteration examples" class="img-circle">
+   	   </div> 
+   	  </div>
+   	 </div>
+	     </div>
+       </div>
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">2014 &copy Indu Kaila-All Rights Reserved</p>
+	   </div>  
+     </div>
+     </div>
+    <div id="push">
+    </div>
+       <div id="footer">
+        <div class="container credit">
+          </div>
+           <div class="container">
+           <p class="muted credit"></p>
+           </div>
+      </div>     
+           </div><!-- /.container - where div class container ends -->    
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+  </body>
+</html>

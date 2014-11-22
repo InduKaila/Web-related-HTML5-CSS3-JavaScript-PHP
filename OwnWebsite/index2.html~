@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing & Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<p>menu</p>            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>
+       	  <b><a class="navbar-brand" href="index.html">www.indukai.la </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+        </div>
+       </div>
+       <div class="collapse navbar-collapse">
+	    <nav id="nav">
+          <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->         
+           	 <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li class="active"><a href="#">Selected Portfolio</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+      </div> 
+      <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+     <div class="container">  
+      <div id="wrap">  
+	    <div class="row">
+	     <div class="col-md-13">
+	      <div class="row top-buffer"> <!-- use this for lines where a buffer is needed -->	
+	<!--	<div class="page-header"> Decided not to include a heading line below the main h3 heading -->
+			<h1>Portfolio contents</h1>
+			<div id="cloudyRain">
+     				 <img width="45" height="45" src="cloudy_rain_purple_lining.svg" alt="Cloud and rain">
+     		</div>	
+			<div id="heavyRain">
+     				  <img width="45" height="45" src="heavy_rain_purple_lining.svg" alt="Cloud and heavy rain">
+     		</div>	
+     		<div id="sunshineRise">
+     				  <img width="50" height="30" src="sunshine_rise_purple_lining.svg" alt="Sunshine rise">
+     		</div>	
+     		<div id="sunshine">
+     				  <img width="55" height="55" src="sunshine.svg" alt="Sunshine">
+     		</div>	
+          
+             
+<div id="portfolio_content_squares">            
+<TABLE width="900" height="400" align="left" cellspacing="5" CELLPADING="0">
+	<TR>
+		<TD width="300"><a href="work_pellucere.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('foldout','','pellucere_page_click_into.png',1)"><img src="pellucere_page_click_into.png" alt="work - pellucere" width="300" height="200" class="imgborder" id="foldout" /></a></TD>
+		<TD width="300"><a href="work_wjharris.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('foldout','','WJHarris_IA.png',1)"><img src="WJHarris_IA.png" alt="work - wjharris" width="300" height="200" class="imgborder" id="foldout" /></a></TD>
+		<TD width="300"><a href="work_offer_app.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('avoid','','ios7_offer_app_design.png',1)"><img src="ios7_offer_app_design.png" alt="work - offerapp" width="300" height="200" class="imgborder" id="avoid" /></a></TD>
+    </TR>
+	<TR>
+		<TD width="300" height="200"><a href="work_bristol_wireless.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('charm','',new_BW_IA.png',1)"><img src="new_BW_IA.png" alt="work - bristol wireless" width="300" height="200" class="imgborder" id="charm" /></a></TD>
+		<TD width="300"><a href="work_ideasquares.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('not_eat','','mainpage_ideasquares.png',1)"><img src="mainpage_ideasquares.png" alt="work - ideasquares" width="300" height="200" class="imgborder" id="not_eat" /></a></TD>
+		<TD width="300"><a href="more_to_come_page.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('labour love','','illustration_me.png',1)"><img src="illustration_me.png" alt="more to come" width="300" height="200" class="imgborder" id="labour love" /></a></TD>
+	</TR>
+</TABLE>  
+</div>
+   
+<a href="selected_portfolio.html">
+		   </div>
+		   		<div id="back_arrow">
+   	   			<img src="back_arrow.png" alt="back" width="45" height="45"></a><em><b> Portfolio</em></b>
+   	      	</div>	
+   	 </div>
+		</div>
+      <div class="navbar navbar-default navbar-fixed-bottom">
+	   	<div class="container">
+	       <p class="navbar-text">&copy Indu Kaila 2014 &ndash; All Rights Reserved</p>
+	   	</div>  
+      </div>
+    </div><!-- /.container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+ </body>
+</html> 

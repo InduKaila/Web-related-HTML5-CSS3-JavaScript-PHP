@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience & Web Design, Usability Testing & Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <!--<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">            
+            <div id="toggle_menu">
+				<p>menu</p>	            
+            </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>-->
+           <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">menu</div>  
+           <b><a class="navbar-brand" href="index.html">www.indukai.la </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	     <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li><a href="index.html">Design & Build</a></li>
+             <li class="active"><a href="#">Favourites</a></li>    
+             <li><a href="selected_portfolio.html">Selected Portfolio</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="blog.html">Blog</a></li>           
+           </ul>
+        </nav>
+        </div><!--nav-collapse-->
+       </div>
+     <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->
+      <div id="wrap">  
+	     <div class="row">
+	     <div class="col-md-11">
+	      <div class="row top-buffer"> 	
+		   	<h1>Favourites</h1>
+		   	<p>How can anyone be passionate about great design but not have a favourite or two web, mobile site or app. I do have a lot of favourites that illustrate good user experience and Information Architecture. Feel free to browse.</p>									
+		   </div>						
+     				<!--<a href="note_pad.png"><span title="Always noting ideas"><img src="note_pad_thumbnail.png" alt="iteration_notepad_photo" width="300" height="200" class="notepad_photo"></span></a>-->   								
+					<div class="UXDesign_I_Heart">
+					<h4 class="ux_design_i_heart">UX/Design I <img width="40" height="40" src="heart.png" alt="Heart icon"></h4>				   
+					<div class="ux_design_i_heart_list_left_column">
+							<ul>
+								<li><a href="http://www.google.com/design/spec/material-design/introduction.html#">Google Material Design for Android</a></li>      
+								<li><a href="https://www.wunderlist.com/en/">Wunderlist</a></li>
+	      					<li><a href="https://soundcloud.com/">Soundcloud</a></li>
+	      					<li><a href="https://mural.ly/">murally</a></li>
+	      					<li><a href="http://www.cinelli.it/site/index.php/home?parent=34&amp;lang=it">Cinelli</a></li>
+	      					<li><a href="http://www.lovelyui.com/">Lovely UI</a></li>
+    						</ul>
+					  	</div>
+				   	<div class="ux_design_i_heart_list_right_column">
+    						<ul>
+    							<li><a href="https://www.fiftythree.com/paper">Paper</a></li>
+    							<li><a href="https://www.lucidchart.com/">Lucid Chart</a></li>
+	      					<li><a href="https://twodaycoffee.co.uk/">twoday Coffee Roasters</a></li>
+	      					<li><a href="http://www.yummly.co.uk/mobile/">Yummly</a></li>
+	      					<li><a href="http://evernote.com/food/">Evernote Food</a></li>
+	      					<li><a href="https://play.google.com/store/apps/details?id=net.rgruet.android.g3watchdog">3G Watchdog</a></li>
+    							<li><a href="https://www.duolingo.com/">Duolingo</a></li>					
+    						</ul>
+     					</div>	
+     			   </div>
+     			   <div class="bookmarks">
+					<h4><img width="40" height="40" src="heart.png" alt="Heart icon"> Bookmarks</h4>
+						<div class="bookmark_list_left_column">
+							<ul>
+								<li><a href="http://www.nngroup.com/">Nielsen Norman Group</a></li>
+								<li><a href="http://www.uie.com/">User Interface Engineering, Uie</a></li>
+								<li><a href="http://www.google.com/design/spec/material-design/introduction.html#">Google Material Design for Android</a></li>
+	      			      <li><a href="http://www.apple.com/uk/ios/whats-new/design/">iOS8 - Apple: Design</a></li>
+								<li><a href="https://developer.apple.com/ios8/">iOS8 UIKit Design Framework Reference</a></li>
+	      			      <li><a href="http://www.w3.org/">W3C</a></li>
+	      					<li><a href="http://codepen.io/">Codepen</a></li>
+	      					<li><a href="http://sketchnotearmy.com/">Sketch Note Army</a></li>  	
+	      					<li><a href="http://boxesandarrows.com/">Boxes and Arrows</a></li> 
+	      					<li><a href="http://www.eleganthack.com/">Elegant Hack, Christina Wodtke</a></li> 
+	      					<li><a href="http://andrearesmini.com/">The Architecture of Information, Andrea Resmini</a></li> 	      					
+    						</ul>
+					  	</div>
+				   	<div class="bookmark_list_right_column">
+    						<ul>
+    							<li><a href="http://www.clarissapeterson.com/">Clarissa Peterson</a></li>       					
+    							<li><a href="http://www.lukew.com/">Luke W</a></li>
+    							<li><a href="http://www.agileproductdesign.com/blog/the_new_backlog.html">Agile Product Design</a></li>
+    							<li><a href="http://www.blog.theteamw.com/2014/07/20/ten-user-testing-bad-habits/">The Brain Lady Blog, Susan Weinschenk</a></li>
+    							<li><a href="http://www.appannie.com/">App Annie</a></li>
+	      					<li><a href="https://www.optimizely.com/">Optimizely</a></li>
+	      					<li><a href="http://theuxreview.co.uk/">The UX Review</a></li> 
+	      					<li><a href="http://www.uxbooth.com/">UX Booth</a></li> 
+	      					<li><a href="http://uxmag.com/">UX Magazine</a></li> 
+	      					<li><a href="http://online-behavior.com/">Online Behaviour</a></li>
+	      					<li><a href="http://www.colourlovers.com/palettes">Colour Lovers</a></li>
+	      					<li><a href="https://wiki.ubuntu.com/">Ubuntu Wiki</a></li>
+	      					<li><a href="http://dub.washington.edu:2007/denim/">dub Denim</a></li>
+    						</ul>
+     					</div>	
+     			   </div> 
+     			   <div class="ux_bookshelf">				
+					<h4><img width="40" height="40" src="bookshelf.png" alt="Bookshelf icon"> Top current reads on my UX Bookshelf</h4>   				 	  					
+								<a href="http://books.google.co.uk/books/about/Sketching_User_Experiences.html?id=c-RAUXk3gbkC">'Sketching User Experiences: The Workbook'</a>											
+								<div class="book_description"><p>by  Bill Buxton, Saul Greenberg, Sheelagh Carpendale & Nicolai Marquardt</p>A very practical and useful book. It looks at how one can sketch to brainstorm, find ideas, and how to iterate and refine your designs. Encourages you to be more creative with ideas and how to find inspiration from everything around you.</div>			
+	      					<a href="https://rosenfeldmedia.com/books/storytelling-for-ux/">'Storytelling for User Experience'</a>				
+	      					<div class="book_description"><p>by Whitney Quesenbery & Kevin Brooks</p>It goes through how storytelling can aid your understanding of the user and add to your designs. Helps you focus on gathering and sharing information about the users, tasks and goals, giving an insight and understanding.</div>  					
+	      					<a href="https://rosenfeldmedia.comexperimental-models/">’Mental Models’</a>     					
+	      					<div class="book_description"><p>by Indi Young</p>Looks at how understanding a users mental representation can guide your designs.</div>      					
+	      					<a href="http://www.goodreads.com/book/show/17239285-microinteractions">'Microinteractions: Designing with Details'</a>			
+	      					<div class="book_description"><p>by Dan Saffer</p>Helps you focus on the interactive details that form your design with an outcome of highly accurate designs to capture user behaviour.</div>      					
+	      					<a href="https://www.goodreads.com/book/show/8420679-a-practical-guide-to-information-architecture">'A Practical Guide to Information Architecture'</a>  					
+	      					<div class="book_description"><p>by Donna Spencer</p>I Love this book – it's a comprehensive aid to organising a website/app as well as non-web, highlighting the methods you can use, looking at your projects' context, goals, stakeholders, technology opportunities/constraints, design constraints, the culture you are working within and how that can affect your project.</div>
+	      					<a href="http://rosenfeldmedia.com/books/card-sorting/">'Card Sorting'</a>				
+	      					<div class="book_description"><p>by Donna Spencer</p>This book helps you think about content and categories and how you can group information so  people can easily find and understand it.</div>	      				
+	      					<a href="http://adrianmendoza.com/mobile-user-experience/">'Mobile User Experience: Patterns to Make Sense of it All'</a>    					
+	      					<div class="book_description"><p>by Adrian Mendoza</p>A Favourite book – looking at how mobile works, the interface elements looking both at Android and iOS, and how to prototype and test in mobile.</div>
+	      					<a href="http://shop.oreilly.com/product/0636920029199.do">'Learning Responsive Web Design'</a>      					
+	      					<div class="book_description"><p>by Clarissa Peterson</p>A great book that includes writing responsive code.</div>
+	      					<a href="https://rosenfeldmedia.com/books/ux-team-of-one/">'The User Experience Team of One: A Research and Design Survival Guide'</a>      					
+	      					<div class="book_description"><p>by Leah Buley</p>A Fabulous book – Love the “If you only do one thing...” sections in each chapter.</div>
+	      					<a href="https://www.goodreads.com/book/show/16128986-ux-for-lean-startups">'UX for Lean Startups: Faster, Smarter User Experience Research and Design'</a>      					
+	      					<div class="book_description"><p>by Laura Klein</p>Using a lean methodology, how to quickly gather useful customer research, to build something users will want to use and usable products. It highlights useful and proven tips and tools for researching and designing an intuitive, usable product.</div>
+    							<a href="http://shop.oreilly.com/product/0636920021827.do">'Lean UX: Applying Lean Principles to Improve User Experience'</a>							
+    							<div class="book_description"><p>by Jeff Gothelf & Josh Seiden</p>How to gather user feedback early and validate your ideas with real users in an agile iterative design process.</div>
+    					      <a href="http://shop.oreilly.com/product/0636920033851.do">'User Story Mapping'</a> 					      
+    					      <div class="book_description"><p>by Jeff Patton</p>This is aimed at agile/lean projects and shows how user stories work so you can focus on users and their experience.</div>				   		
+				   </div>
+   	  			<div id="illustration_me_favourites_location">
+   	      	  	<img width="300" height="200" src="illustration_me.png" alt="Illustration of Me (Indu)">	
+   	  			</div>	  			
+   	  			<div id="cloudyRain">
+     				  	<img width="30" height="30" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     				</div>	
+					<div id="heavyRain">
+     				  	<img width="30" height="30" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     				</div>	
+     				<div id="sunshineRise">
+     				  	<img width="35" height="20" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     				</div>	
+     				<div id="sunshine">
+     				  	<img width="35" height="35" src="sunshine.png" alt="Sunshine">
+     				</div>
+   	  </div>
+	    </div>
+      </div>
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	  <div class="container">
+	  <div class="first label navbar-text"><p>&copy; 2014 Indu Kaila &ndash; All Rights Reserved</p></div>
+	      <span id="twitter_icon_bottom"><a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="35" height="35"></span></a></span>
+	      <span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="49" height="37"></span></a></span>
+	      <span id="pinterest_icon_bottom"><a href="http://www.pinterest.com/uxdesignbuild/"><span title="Pin me on Pinterest"><img src="pinterest.png" alt="pinterest_icon" width="25" height="25"></span></a></span>
+	      <span id="email-contact_icon_bottom"><a href="mailto:pinschen@gmail.com" target="_top"><span title="To email me"><img src="email.png" alt="email icon" width="25" height="25"></span></a></span>	  
+	  </div>  
+     </div>
+     </div>
+     <div id="push">
+     </div>
+     
+       <div class="footer">
+           <div class="container">
+           	<p class="muted credit"></p>
+           </div>
+       </div>     
+     </div> <!--/.container - where div class container ends -->   
+     
+     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script src="js/bootstrap.js"></script>   
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing & Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <!--<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">           
+            <div id="toggle_menu">
+				<p>menu</p>	            
+            </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>-->
+           <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">menu</div> 
+           <b><a class="navbar-brand" href="index.html">www.indukai.la </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	     <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li><a href="index.html">Design & Build</a></li>
+             <li><a href="favourites.html">Favourites</a></li>
+             <li class="active"><a href="#">Selected Portfolio</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="blog.html">Blog</a></li>          
+           </ul>
+        </nav>
+        </div><!--nav-collapse-->
+       </div>
+     </div>
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->       
+      <div id="wrap">   
+	    <div class="row">	      
+	     <div class="col-md-13">   
+	      <div class="row top-buffer"> 		   	   
+					<div id="cloudyRain">
+     				  	<img width="30" height="30" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     				</div>	
+					<div id="heavyRain">
+     				  	<img width="30" height="30" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     				</div>	
+     				<div id="sunshineRise">
+     				  	<img width="35" height="20" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     				</div>	
+     				<div id="sunshine">
+     				  	<img width="35" height="35" src="sunshine.png" alt="Sunshine">
+     				</div>				
+     				<h3>Offer app design</h3> 
+					<h4>The Brief</h4>
+						<p>A mobile app design centred on the theme of offers/discounts from eateries/bars and linking this to the time remaining for the offers.</p> 	
+     				<h4>Outcome</h4>
+					<p>Designing the mobile app to the<a href="https://developer.apple.com/library/ios/design/"> iOS7 mobile design standard</a></p>	
+					<!--<p class="work_outcomes">Parts of the design were used:</p>-->
+					<p class="work_outcomes">Main menu, two-tab sub-menu, offer location, favourites, and the social media share menu</p> 
+					<p class="work_outcomes">The 'offer time' screen listing the times of offers wasn't used but I felt it would have been of value as the app's main focus is the time remaining for offers</p>
+					<p class="work_outcomes">The wording for venue screens giving the offer/venue information was easily viewable by not being overlayed onto the offer background image</p>											
+     				<h4>The User Journey</h4>
+     				<img src="offerapp_userjourney.jpg" alt="offer app user journey" width="400" height="300"></a>     				
+     				<h4>The Challenge</h4>
+					<ul>
+						<li>To accommodate quickly in the website design, the constantly changing form of this new start-up</li>
+						<li>The emphasis on offers/discounts linking this to the time remaining for the offers</li>
+					</ul>			
+     				<h4>Outline of my work</h4>
+					<b>I designed a new Information Architecture (IA) to:</b>
+					<ul>
+						<li>Highlight the app vision/ethos</li>
+						<li>Highlight the offers/discounts in a usable, as well as engaging manner</li>
+					</ul>											
+					<b>App design included:</b>	
+					<ul>					
+						<li>An app design following relevant ISO guidelines and UX best practice, including Nielsen's usability heuristics</li> 	
+						<li>Research involved creating personas/scenarios and verifying/validating results by talking to the target group this app focuses on ie. spontaneous people, those aged under 30 years to ascertain their goals and tasks for the app, making sure the navigation was usable, easy to understand, accessible and organised in an understandable way</li>
+						<li>Observation and task analysis of paper prototypes to see how people can use the website design, real behaviour, A/B testing</li> 
+						<li>App page 'mockups' for the functional specifications</li> 
+						<li>Reviewed the apps YPlan, Yummly, Temptster, TopTable, Foodspotting, A Table, Yumtable, Bookatable, Hotel Tonight. The offer listings and the offer detail screen appearance was a result</li> 
+     					<!--<p><b>Summary review of competitor websites: </b><a href="Summary_Reviewing_Other_Websites.pdf">Summary review.</a></p>-->		
+					</ul>			
+   	   		<h4>The App design</h4> 	
+   	   		<img id="ios7_offerapp_screen_designs">    				
+					<img src="ios7_two_screens_offer_app_design.png" alt="offer app two screens" width="450" height="500"></a><b> Two screens</b>
+					</img>					
+					<p></p>   	   		
+   	   		<p></p>
+     				<h4>All of the App screen designs</h4>	
+     				<div id="ios7_offerapp_design">	
+   	   			<img src="ios7_offer_app_design.png" alt="offer app design" width="700" height="400"></a>
+   	   		</div>
+   	   		<div id="ios7_offerapp_closeup">	
+   	   			<h4>A close-up of all of the above screen designs is viewable here:</h4><a href="ios7_offer_app_design.png">Screen designs</a>		
+   	   		</div>
+   	   </div>
+   	   		<div id="back_arrow">
+   	   			<a href="selected_portfolio.html"><span title="Back to the portfolio listing"><img src="back_arrow.png" alt="back_arrow" width="30" height="30"></span></a><em><b> Portfolio </em></b>
+	 				</div>
+   	   </div> 	   
+	     </div>
+       </div>    
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">&copy; 2014 Indu Kaila &ndash; All Rights Reserved</p>
+	   	<span id="twitter_icon_bottom"><a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="35" height="35"></span></a></span>
+	      <span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="46" height="37"></span></a></span>
+	      <span id="pinterest_icon_bottom"><a href="http://www.pinterest.com/uxdesignbuild/"><span title="Pin me on Pinterest"><img src="pinterest.png" alt="pinterest_icon" width="25" height="25"></span></a></span>
+	      <span id="email-contact_icon_bottom"><a href="mailto:pinschen@gmail.com" target="_top"><span title="To email me"><img src="email.png" alt="email icon" width="25" height="25"></span></a></span>	    
+	   </div>  
+     </div>
+     </div>
+     <div id="push">
+     </div>
+     
+        <div class="footer">
+           <div class="container">
+           	<p class="muted credit"></p>
+           </div>
+        </div>   
+     </div><!-- /.container - where div class container ends -->  
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>User Experience Design, Usability Testing  Web Development Bristol | Indu Kaila</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" /> 
+    <link href="indu_kaila.css" rel="stylesheet" /> 
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--<div id="wrap">-->
+       <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+           <!--<button type="button"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">            
+            <div id="toggle_menu">
+				<p>menu</p>	            
+            </div>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+           </button>-->
+           <div class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">menu</div>  
+           <b><a class="navbar-brand" href="index.html">www.indukai.la </a></b> <!--brand in the top navbar-->
+       <!--<a href="../" class="navbar-brand">Indu</a>-->
+         </div>
+        </div> 
+        <div class="collapse navbar-collapse">
+	     <nav id="nav">
+           <ul class="nav nav-pills">                <!-- did use previously"nav navbar-nav"> -->
+             <li><a href="index.html">Design & Build</a></li>
+             <li><a href="favourites.html">Favourites</a></li>
+             <li class="active"><a href="#">Selected Portfolio</a></li>
+             <li><a href="contact.html">Contact</a></li>
+             <li><a href="blog.html">Blog</a></li>         
+           </ul>
+        </nav>
+        </div><!--nav-collapse-->
+       </div>
+     </div>
+           <div class="container">
+     <!-- <div class="a start">        			
+      </div>-->       
+      <div id="wrap">   
+	    <div class="row">	      
+	     <div class="col-md-13">   
+	      <div class="row top-buffer"> 		   	   
+					<div id="cloudyRain">
+     				  	<img width="30" height="30" src="cloudy_rain_purple_lining.png" alt="Cloud and rain">
+     				</div>	
+					<div id="heavyRain">
+     				  	<img width="30" height="30" src="heavy_rain_purple_lining.png" alt="Cloud and heavy rain">
+     				</div>	
+     				<div id="sunshineRise">
+     				  	<img width="35" height="20" src="sunshine_rise_purple_lining.png" alt="Sunshine rise">
+     				</div>	
+     				<div id="sunshine">
+     				  	<img width="35" height="35" src="sunshine.png" alt="Sunshine">
+     				</div>			
+     				<h3>New WJ Harris Caterer's website</h3> 
+					<h4>The Brief</h4>
+					<p>A new website design to emphasise the products from this family-run business, the longevity of this business (a business that's been running for over 15 years), supplying high quality meat to Bristol's/surrounding regions finest and most popular restaurants, as well as supplying meat to large-scale outdoor shows and festivals in the South-West. The company would now in addition like to widen their customer base to local people drawing them in from the high street.</p>					
+     				<h4>Outcome</h4>						
+					<p class="work_outcomes">New Information Architecture (IA)</p>
+					<p class="work_outcomes">A new website design following relevant ISO guidelines, UX best practice, including Nielsen's usability heuristics, and from talking to and observing potential customers found at meat suppliers in the city/local area.</p> 
+					<p class="work_outcomes">Building the new website using Ruby on Rails</p>
+					<p class="work_outcomes">A website design that exceedes the client brief via:</p>
+					<p class="work_outcomes">- a Blog highlighting the client's local and personal business approach</p>
+					<p class="work_outcomes">- a design emphasising their fine meat products via the IA focus on the range, services and endorsements</p>					
+     				<p class="work_outcomes">- designing the Information Architecture (IA) from card sorting user research into the main areas 'About us', 'Our range', 'Our services', 'Blog', 'Endorsements', 'Contact us' and sub-menu areas listed in the IA diagram below</p>
+					<img src="WJHarris_IA.png" alt="IA" width="500" height="500"></a><b> IA</b>			
+					<p></p>								
+     				<h4>The Challenge</h4>
+					<ul>
+						<li>Trade market catering is highly competitive - client not wishing their current customers to be named</li>
+						<li>To integrate a blog feature in the website design</li>
+						<li>A Responsive design, to take account of mobile and tablet usage</li>
+					</ul>			
+     				<h4>Outline of my work</h4>
+					<b>I designed a new Information Architecture (IA) to:</b>
+					<ul>
+						<li>Highlight the company vision/ethos</li>
+						<li>Highlight the products for sale in a usable and engaging manner</li>
+					</ul>										
+					<h4>Website design included:</h4>	
+					<ul>						
+						<li>Research involved talking to potential customers as users of the new website as well as creating personas/scenarios to ascertain the design goals, making sure the navigation was usable, easy to understand, usable, accessible and organised in an understandable way.</li>
+						<li>Observation and task analysis of paper prototypes to see how people can use the website design, real behaviour.</li> 
+						<li>Website page 'mockups' for the functional specifications</li> 
+						<li>Reviewed competitor websites, and further to this I incorporated an emphasis on the quality and safety of the meat products, and the family-run business aspects in the Information Architecture (IA) website design</li> 
+     					<!--<p><b>Summary review of competitor websites: </b><a href="Summary_Reviewing_Other_Websites.pdf">Summary review.</a></p>-->
+					</ul>
+		  			</div>		
+   	   			<div id="back_arrow">
+   	   				<a href="selected_portfolio.html"><span title="Back to the portfolio listing"><img src="back_arrow.png" alt="back_arrow" width="30" height="30"></span></a><em><b> Portfolio </em></b>
+	 					</div>
+   	   </div> 	   
+	     </div>
+       </div>    
+     <div class="navbar navbar-default navbar-fixed-bottom">      
+	   <div class="container">
+	      <p class="navbar-text">&copy; 2014 Indu Kaila &ndash; All Rights Reserved</p>
+	   	<span id="twitter_icon_bottom"><a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="35" height="35"></span></a></span>
+	   	<span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="46" height="37"></span></a></span>
+	   	<span id="pinterest_icon_bottom"><a href="http://www.pinterest.com/uxdesignbuild/"><span title="Pin me on Pinterest"><img src="pinterest.png" alt="pinterest_icon" width="25" height="25"></span></a></span>
+	   	<span id="email-contact_icon_bottom"><a href="mailto:pinschen@gmail.com" target="_top"><span title="To email me"><img src="email.png" alt="email icon" width="25" height="25"></span></a></span>	  	  
+	   </div>  
+     </div>
+     </div>
+     <div id="push">
+     </div>
+       
+       <div class="footer">
+           <div class="container">
+           	<p class="muted credit"></p>
+           </div>
+       </div>    
+     </div><!-- /.container - where div class container ends -->  
+     
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
