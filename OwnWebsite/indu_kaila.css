@@ -298,6 +298,7 @@ body {
 #nav ul li.active a,
 #nav ul li a:hover {
     color: #4E0041; /*Purple colour of font when highlighted*/
+    font-size: 17px;
     /*line-height: 17px;/*keep the line-height the same in the hovered and non-hovered states to prevent the menu fidgeting at mouse hover*/*/
 }
 
@@ -307,6 +308,7 @@ body {
     text-decoration: none;
     background-color: #FFFFFF; /*White colour of pillboxes*/
     font-weight: normal; 
+    font-size: 17px;
     /*line-height: 17px;/*removed this to keep the line-height the same in the hovered and non-hovered states to prevent the menu fidgeting at mouse hover*/*/
 }
 
@@ -320,7 +322,7 @@ body {
     position: relative;
     display: block;
     color: #CA82AF; /*Colour of font on navbar*/ 
-    font-size: 18px;    
+    font-size: 17px;   
 }
 
 
@@ -360,23 +362,23 @@ body {
 .navbar-brand {
     float: left;
     /*padding: 15px 15px;*/
-    font-family: 'ABeeZee', sans-serif;
-    font-size: 20px;
-    line-height: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    line-height: 26px;
     color: #8B1A1A; /*Saddlebrown colour*/
 }
 
 
 .navbar-default .navbar-brand {
     color:  #CA82AF; /*Variation of pink colour*/
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Dancing Script', cursive;
     font-weight: bold;
 }
 
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-	 font-family: 'ABeeZee', sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: #FFFFFF; /*White colour*/
     background-color: transparent;
 }
@@ -406,8 +408,8 @@ body {
 
 
 .navbar-text {
-	 font-family: 'ABeeZee', sans-serif;
-    font-size: 14px;	 
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;	 
     font-weight: bold;
     /*margin-right: 740px;*/
 }
@@ -587,6 +589,7 @@ button:hover {
 /*image border on portfolio squares*/
 .imgborder {
      border: 5px solid #808080;	/*Dark grey colour*/
+     border-radius: 15px;
 }
 
 
@@ -614,6 +617,8 @@ button:hover {
      outline-width: 5px solid black;
      margin-left: 5px;
      margin-right: 5px;
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
 }
 
 
