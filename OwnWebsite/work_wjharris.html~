@@ -8,6 +8,7 @@
     <link href="indu_kaila.css" rel="stylesheet" /> 
     <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!--<div id="wrap">-->
@@ -103,7 +104,7 @@
 	   <div class="container">
 	      <p class="navbar-text">&copy; 2014 Indu Kaila &ndash; All Rights Reserved</p>
 	   	<span id="twitter_icon_bottom"><a href="https://twitter.com/PinnyPinschen"><span title="Tweet me on Twitter"><img src="twitter_bird.png" alt="twitter_icon" width="35" height="35"></span></a></span>
-	   	<span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="46" height="37"></span></a></span>
+	   	<span id="github_icon_bottom"><a href="https://github.com/InduKaila"><span title="I'm on GitHub"><img src="Octocat.png" alt="github_icon" width="49" height="37"></span></a></span>
 	   	<span id="pinterest_icon_bottom"><a href="http://www.pinterest.com/uxdesignbuild/"><span title="Pin me on Pinterest"><img src="pinterest.png" alt="pinterest_icon" width="25" height="25"></span></a></span>
 	   	<span id="email-contact_icon_bottom"><a href="mailto:pinschen@gmail.com" target="_top"><span title="To email me"><img src="email.png" alt="email icon" width="25" height="25"></span></a></span>	  	  
 	   </div>  
