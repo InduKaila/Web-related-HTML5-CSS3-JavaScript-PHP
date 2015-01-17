@@ -1,0 +1,88 @@
+* {
+     box-sizing: border-box;
+}
+
+
+
+body {
+     font-family: "helvetica", "sans-serif";
+     font-size: 100%;
+     margin: 0;
+     padding: 0;
+}
+
+
+
+.menu {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0;
+	 width: 100%;
+	 background: #555;
+	 text-align: center;
+	 position: relative;
+	 z-index: 0;
+	 display: table;
+/* solves using Safari */
+    
+    
+}
+.menu > li {
+	 display: inline-block; 	 zoom: 1; /* solves using IE7, IE6
+	 _display: inline; /* solves using IE7, IE6 */
+}
+
+
+.menu a {
+	 display: block;
+	 padding: 0.75em 1.5em;
+	 background: #555;
+	 color: #fff;
+     -webkit-transition: background 0.5s;
+	         transition: background 0.5s;   
+}
+
+
+.menu a:hover {	
+     background: #777;
+}
+
+
+
+.submenu {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0
+	 text-align: left;
+     background: #555;
+	 position: absolute;
+     z-index: -1;
+     opacity: 0;
+	 -webkit-transform: translateY(-10em);
+	         transform: translateY(-10em);	
+     -webkit-transition: opacity 0.75s ease 0.01s,
+         -webkit-transform 0.75s ease 0.01s;	
+	 transition: opacity 0.75s ease 0.01s,
+         transform 0.75s ease 0.01s;  
+}
+
+
+
+.submenu a {
+	 padding: 0.75em 1.5em;
+	 border-bottom: 1px solid #666;
+}
+
+
+
+.menu li:hover .submenu {	
+     opacity: 1.0;
+     -webkit-transform: translateY(0);
+	         transform: translateY(0);  
+}
+
+
+
+
+
+
