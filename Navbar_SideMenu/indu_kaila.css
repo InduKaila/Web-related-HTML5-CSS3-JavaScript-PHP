@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "helvetica", "sans-serif";
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    float: left;
+    margin: 10px 5px 5px 6px;
+    width: 150px;
+    height: 630px;
+    background: #555;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+    display: table;
+/* solves using Safari */
+    
+    
+}
+.menu > li {
+	 display: inline-block; 	 zoom: 1; /* solves using IE7, IE6*/
+	 display: inline; /* solves using IE7, IE6 */
+}
+
+
+.menu a {
+	 display: block;
+	 padding: 2em 3.5em;
+	 background: #555;
+	 color: #fff;
+     -webkit-transition: background 0.5s;
+	         transition: background 0.5s;   
+}
+
+
+.menu a:hover {	
+     background: #777;
+}
+
+
+
