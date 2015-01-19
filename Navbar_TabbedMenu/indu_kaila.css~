@@ -26,8 +26,8 @@ body {
     
 }
 .menu > li {
-	 display: inline-block; 	 zoom: 1; /* solves using IE7, IE6*/
-	 display: inline; /* solves using IE7, IE6 */
+	 display: inline-block; 	 zoom: 1; /* solves using IE7, IE6
+	 _display: inline; /* solves using IE7, IE6 */
 }
 
 
