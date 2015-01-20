@@ -23,6 +23,7 @@ body {
     position: relative;
     z-index: 0;
     display: table;
+    border-bottom: 1px dotted #ddd;
 /* solves using Safari */
     
     
@@ -40,7 +41,6 @@ body {
 	 color: #fff;
      -webkit-transition: background 0.5s;
 	         transition: background 0.5s;   
-	 border-bottom: 1px dotted #ddd;
 }
 
 
