@@ -784,7 +784,7 @@ img {max-width:100%}
 	  display: none; /*icons to disappear at this width of device to aid a clear responsive layout*/	
 }
 body {
-	  margin: 20px; /*margin setting to aid a responsive layout*/
+	  margin: 25px; /*margin setting to aid a responsive layout*/
 	  margin-bottom: 70px;
 }	
 .formText, .formTextarea, .formSelect {
