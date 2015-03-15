@@ -1,6 +1,7 @@
 /*headings*/
 h1 {
-	  font-family: 'Courgette', cursive;
+	  font-family: 'Pacifico', cursive;
+	  /*font-family: 'Courgette', cursive;*/	
 	  /*font-family: 'Hind', sans-serif;*/
 	  margin-top: 40px;
 	  /*margin-top: 28px;*/
@@ -11,7 +12,8 @@ h1 {
 
 
 h2 {
-	  font-family: 'Courgette', cursive;
+	  font-family: 'Pacifico', cursive;
+	  /*font-family: 'Courgette', cursive;*/
 	  /*font-family: 'Hind', sans-serif;*/
 	  margin-top: 20px;
      margin-bottom: 5px;
@@ -21,7 +23,8 @@ h2 {
 
 
 h3 {
-	 font-family: 'Courgette', cursive;
+	 font-family: 'Pacifico', cursive;
+	 /*font-family: 'Courgette', cursive;*/
     /*font-family: 'Hind', sans-serif;*/
     margin-top: 40px;
     margin-bottom: 20px;
@@ -32,7 +35,8 @@ h3 {
  
  
 h4 {
-	 font-family: 'Courgette', cursive;
+	 font-family: 'Pacifico', cursive;
+	 /*font-family: 'Courgette', cursive;*/
     /*font-family: 'Hind', sans-serif;*/
     margin-top: 20px;
     margin-bottom: 5px;
@@ -43,13 +47,15 @@ h4 {
 
 
 h5 {
-	 font-family: 'Courgette', cursive;
+	 font-family: 'Pacifico', cursive;
+	 /*font-family: 'Courgette', cursive;*/
     /*font-family: 'Hind', sans-serif;*/
     margin-top: 80px;
     margin-bottom: 40px;
     color: #702963; /*Dark purple colour*/
     font-weight: bold; 
 }
+
 
 
 /*layout for header on the more to come page*/
@@ -76,9 +82,10 @@ body {
     background-color:  #FFFFFF; /*#E3DAC9; /*bone*//*#F5F5DC; /*#FFFFFF;*/
   /*background-image:url('brickinvert4.png');*/
     margin: 0% 18%;
-    margin-bottom: 180px;
+    margin-bottom: 70px;
     padding-top: 100px;
 }  
+
 
 
 
@@ -113,9 +120,9 @@ body {
 
 /*uxdesign I heart on home page*/
 .ux_design_i_heart {
-	 margin-top: 5px;
+	 margin-top: 1px;
     margin-bottom: 1px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 0;
     margin-left: 0;
@@ -140,8 +147,8 @@ body {
 
 /*bookmarks*/
 .bookmarks {
-	 margin-top: 1px;
-    margin-bottom: 50px;
+	 margin-top: 60px;
+    margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 0;
@@ -219,27 +226,27 @@ body {
 
 /*circular photos*/
 .circle_for_indu_photo {
-    margin-top: 20px;
-    margin-bottom: 20px;	
+    margin-top: 30px;
+    margin-bottom: 50px;	
 }
 
 
 .circle_for_design {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     /*clear: both;  /*new*/*/
 }
 
 
 .circle_for_user_testing {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-bottom: 80px;
     clear: both;  /*new*/
 }
 
 
 .circle_for_development {
-    margin-top: 170px;
+    margin-top: 160px;
     margin-bottom: 20px;
     clear: both;  /*new*/
 }
@@ -349,9 +356,11 @@ body {
 }
 
 
-.navbar-default {
- 	 font-family: 'ABeeZee', sans-serif;
+.navbar-default {	
+	 font-family: 'Pacifico', cursive;
+ 	 /*font-family: 'Dancing Script', cursive;*/
     color: #FFFFFF; /*Changed to the #FFFFFF so as to not have a dark brown line under the navbar*/
+    font-size: 35px;
     background-color: #FFFFFF; /*White colour*/
     border-color: /*#e7e7e7;*/
     margin-left: /*11%;*/
@@ -360,6 +369,20 @@ body {
     padding-top: 0.5%;
     border-color:  #FFFFFF; /*White colour*/
     border-bottom: 0px solid;
+}
+
+
+
+/*unvisited links on the default navbar*/
+.nav a:link {
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+/*unvisited links*/
+a:link {
+	 font-family: 'Chewy', cursive;
 }
 
 
@@ -381,12 +404,20 @@ body {
 }
 
 
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     font-family: 'Dancing Script', cursive;
     color: #FFFFFF; /*White colour*/
     background-color: transparent;
 }
+
+
+
+.navbar-toggle {
+   font-size: 17px;
+}
+
 
 
 .navbar-fixed-bottom {
@@ -614,7 +645,8 @@ button:hover {
      position: absolute;
      display: block;
      color: White;
-     font-family: 'ABeeZee', sans-serif;
+     font-family: 'Chewy', cursive;
+     /*font-family: 'ABeeZee', sans-serif;*/   
      text-align: center;
      font-size: 12pt;
      padding-bottom: 3px;
@@ -736,7 +768,7 @@ button:hover {
 
 /*to make sure the height of the footer is the same as the margin-bottom of the body so that pages are able to scroll down fully*/
 .footer {
-  height: 70px;
+    height: 70px;
 }
 
 
@@ -752,35 +784,36 @@ img {max-width:100%}
 	  display: none; /*icons to disappear at this width of device to aid a clear responsive layout*/	
 }
 body {
-	  margin: 12px; /*margin setting to aid a responsive layout*/
+	  margin: 20px; /*margin setting to aid a responsive layout*/
+	  margin-bottom: 70px;
 }	
 .formText, .formTextarea, .formSelect {
 	  width: 100%;		/*aid a responsive layout*/
 }	
 /*ios7 OfferApp screen image close-up to disappear at this width of device to aid a clear responsive layout*/
 #ios7_offerapp_closeup {
-	display: none;
+	  display: none;
 }
 /*horizontal purple block to disappear at this width of device to aid a clear responsive layout*/
 #horizontal_page_ending_block {
-	display: none;
+	  display: none;
 }
 /*the menu to display on a separate line at this width of device to aid a clear responsive layout*/
 .nav-pills>li {
-	clear: both;
+	  clear: both;
 }
 /*the list to display on a separate line at this width of device to aid a clear responsive layout*/
 .ux_bookshelf {
-	clear: both;
+	  clear: both;
 }
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #pinterest_icon_bottom {
- clear: both;
- margin-bottom: 2px;
+     clear: both;
+     margin-bottom: 2px;
 }
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #email-contact_icon_bottom {
- margin-bottom: 10px;
+     margin-bottom: 10px;
 }
 }
 
@@ -789,7 +822,7 @@ body {
 /*amend the gap above the page h1 headings to be responsive*/ 
 @media screen and (max-width: 755px) {
 h1 {
-	margin-top: 20px;
+	 margin-top: 20px;
 }
 }
 
@@ -823,11 +856,11 @@ text to move below the circular images*/
 @media screen and (max-width: 400px) {
 .footer {
 	 margin-top: 90px;
+	 margin-bottom: 70px;
 }
 }
 
 /*.navbar-fixed-bottom {
 position: static;
 }*/
-
 
