@@ -806,14 +806,27 @@ body {
 .ux_bookshelf {
 	  clear: both;
 }
+
+/*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
+#twitter_icon_bottom {
+     clear: both;   
+     float: right;      
+}
+
+/*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
+#github_icon_bottom {   
+     float: right;   
+}
+
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #pinterest_icon_bottom {
      clear: both;
      margin-bottom: 2px;
 }
+
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #email-contact_icon_bottom {
-     margin-bottom: 10px;
+     margin-bottom: 2px;
 }
 }
 
@@ -856,9 +869,13 @@ text to move below the circular images*/
 @media screen and (max-width: 400px) {
 .footer {
 	 margin-top: 90px;
-	 margin-bottom: 70px;
+	 /*margin-bottom: 70px;*/
+	 height: 70px;
 }
 }
+
+
+
 
 /*.navbar-fixed-bottom {
 position: static;
