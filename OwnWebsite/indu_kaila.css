@@ -39,7 +39,8 @@ h4 {
 	 /*font-family: 'Courgette', cursive;*/
     /*font-family: 'Hind', sans-serif;*/
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
+    padding-top: 15px;
     color: #702963; /*Dark purple colour*/
     font-weight: bold; 
     clear: both;  /*new*/
@@ -50,7 +51,7 @@ h5 {
 	 font-family: 'Pacifico', cursive;
 	 /*font-family: 'Courgette', cursive;*/
     /*font-family: 'Hind', sans-serif;*/
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 40px;
     color: #702963; /*Dark purple colour*/
     font-weight: bold; 
@@ -148,7 +149,7 @@ body {
 /*bookmarks*/
 .bookmarks {
 	 margin-top: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 0;
@@ -160,7 +161,7 @@ body {
 
 /*bookmark list left and right columns on home page*/
 .bookmark_list_left_column {
-	 margin-top: 30px;
+	 margin-top: 10px;
     float: left;
     width: 40%;
     margin:0 40px 0 0;
@@ -195,7 +196,7 @@ body {
 
 /*UX Bookshelf*/
 .ux_bookshelf {
-	 margin-top: 40px;
+	 margin-top: 20px;
     margin-bottom: 50px;
     padding-top: 40px;
     padding-bottom: 5px;
@@ -234,7 +235,7 @@ body {
 .circle_for_design {
     margin-top: 40px;
     margin-bottom: 50px;
-    /*clear: both;  /*new*/*/
+    clear: both;  /*new*/
 }
 
 
@@ -277,10 +278,10 @@ body {
 
 /*note pad photo*/
 .notepad_photo {
-	 border: solid 5px #5E5E5E; 
+	 /*border: solid 5px #3D352A;*/
 	 border-radius: 20px;	
 	 margin-top: 10px;
-	 margin-bottom: 20px;
+	 margin-bottom: 10px;
 	 margin-left: 190px;
 	 position: center;
 }
@@ -612,6 +613,22 @@ button:hover {
 }
 
 
+#leftMainImage {
+	  position: fixed;
+	  top: 200px;
+	  left: 40px;
+}
+
+
+
+#rightMainImage {
+	  position: fixed;
+	  bottom: 67px;
+	  right: 20px;
+}
+
+
+
 #back_arrow {
 	  font-family: 'ABeeZee', sans-serif;
 	  font-size: 15px;	 
@@ -672,7 +689,7 @@ button:hover {
 
 /*to make sure there is a margin below the ios7 OfferApp screen designs image*/
 #ios7_offerapp_design {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 80px;
 }
 
@@ -680,6 +697,27 @@ button:hover {
 
 /*Bristol Wireless screen design png images*/
 #bristol_wireless_screen_designs {
+	  padding-right: 0px;
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+}
+
+
+
+
+/*Pellucere screen design png images*/
+#pellucere_screen_designs {
+	  padding-right: 0px;
+	  padding-top: 30px;
+	  padding-bottom: 30px;
+}
+
+
+
+
+
+/*WJ Harris screen design png images*/
+#wjharris_screen_designs {
 	  padding-right: 0px;
 	  padding-top: 30px;
 	  padding-bottom: 30px;
@@ -779,12 +817,26 @@ img {max-width:100%}
 
 
 /*responsive layout - catering for differing screen widths/devices, including mobile and tablet*/
+@media screen and (max-width: 987px) {
+/*image to disappear at this width of device to aid a clear responsive layout*/
+#leftMainImage {
+	  display: none;
+}
+/*image to disappear at this width of device to aid a clear responsive layout*/
+#rightMainImage {
+	  display: none;
+}
+}
+
+
+/*responsive layout - catering for differing screen widths/devices, including mobile and tablet*/
 @media screen and (max-width: 600px) {
 #cloudyRain, #heavyRain, #sunshineRise, #sunshine, #back_arrow, #note_pad {
 	  display: none; /*icons to disappear at this width of device to aid a clear responsive layout*/	
 }
 body {
-	  margin: 25px; /*margin setting to aid a responsive layout*/
+	  margin-left: 25px; /*margin setting to aid a responsive layout*/
+	  margin-right: 25px; /*margin setting to aid a responsive layout*/
 	  margin-bottom: 70px;
 }	
 .formText, .formTextarea, .formSelect {
@@ -809,35 +861,34 @@ body {
 
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #twitter_icon_bottom {
-     clear: both;   
-     float: right;      
+     display: none;     
 }
 
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #github_icon_bottom {   
-     float: right;   
+ 	  display: none;
 }
 
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #pinterest_icon_bottom {
-     clear: both;
-     margin-bottom: 2px;
+	  display: none;
 }
 
 /*to tidy-up the layout of the icon at this width of device to aid a clear responsive layout*/
 #email-contact_icon_bottom {
-     margin-bottom: 2px;
+	  display: none;
 }
 }
 
 
 /*responsive layout - catering for differing screen widths/devices, including mobile*/
-/*amend the gap above the page h1 headings to be responsive*/ 
+/*amend the gap above the page h1, h3 headings to be responsive*/ 
 @media screen and (max-width: 755px) {
-h1 {
-	 margin-top: 20px;
+h1, h3 {
+	 margin-top: 2px;
 }
 }
+
 
 
 /*responsive layout - catering for differing screen widths/devices, including mobile and tablet - 
@@ -873,7 +924,6 @@ text to move below the circular images*/
 	 height: 70px;
 }
 }
-
 
 
 
